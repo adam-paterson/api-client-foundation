@@ -6,5 +6,4 @@ use AdamPaterson\ApiClient\Foundation\Exception;
 
 interface DomainException extends Exception
 {
-
 }
