@@ -19,17 +19,17 @@ class ApiClient
     /**
      * @var \Http\Client\HttpClient
      */
-    private $httpClient;
+    protected $httpClient;
 
     /**
      * @var \AdamPaterson\ApiClient\Foundation\Contract\HydratorInterface
      */
-    private $hydrator;
+    protected $hydrator;
 
     /**
      * @var \AdamPaterson\ApiClient\Foundation\Http\RequestBuilder
      */
-    private $requestBuilder;
+    protected $requestBuilder;
 
     /**
      * ApiClient constructor.
